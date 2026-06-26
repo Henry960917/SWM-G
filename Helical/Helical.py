@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('HelicalCSV.csv')
+df = pd.read_csv('HelicalNewCSV.csv')
 
 fig = plt.figure(figsize=(10, 8))
 ax = plt.subplot(projection='3d')
