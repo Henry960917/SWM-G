@@ -30,9 +30,9 @@ int main() {
 	helicalCommand.zAxis = 2; // 第三軸Z
 	helicalCommand.centerPos[0] = 50000 * sqrt(2.0); // 圓心x座標
 	helicalCommand.centerPos[1] = 50000 * sqrt(2.0); // 圓心y座標
-	helicalCommand.zEndPos = 100000; // z軸終點位置
+	helicalCommand.zEndPos = 500000; // z軸終點位置
 	helicalCommand.clockwise = 0;
-	helicalCommand.arcLengthDegree = 360; // 旋轉角度
+	helicalCommand.arcLengthDegree = 360*5; // 旋轉角度
 	helicalCommand.profile.type = ProfileType::Trapezoidal;
 	helicalCommand.profile.velocity = 100000;
 	helicalCommand.profile.acc = 18000;
